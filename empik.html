@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<title>Mateusz Kaniecki - 291564</title>
+	
+	<meta name="description" content="Przydatna strona do nauki w trakcie studiowania. Stworzona w celach naukowych. Właściciel strony - student uniwersytetu Mikołaja Kopernika w Toruniu." /> 
+	<meta name="keywords" content="nauka, studia, informatyka stosowana, programowanie, html, css, javascript, php, webmaster" />
+	
+	<link rel="stylesheet" href="style_empik.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello_nauka.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu" rel="stylesheet"> 
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a class="domowa" href="angielski.html" >Empik school</a></div>
+			<div id="time">12:00:00</div>
+			<div style="clear: both"></div>
+		</div>
+		
+		<div class="square">
+			<div class="s2" style="background-color: #ffffff; border: 2px solid #5bb094; color: #5bb094;">
+				B1+ level
+			</div>
+				<div id="lewa">
+					<div class="s1" id="k1">chapter 1</div>
+					<div class="s1" id="k2">chapter 2</div>
+					<div class="s1" id="k3">chapter 3</div>
+						<div style="clear: both"></div>
+					<div class="s1" id="k4">chapter 4</div>
+					<div class="s1" id="k5">chapter 5</div>
+					<div class="s1" id="k6">chapter 6</div>
+						<div style="clear: both"></div>
+					<div class="s1" id="k7">chapter 7</div>
+					<div class="s1" id="k8">chapter 8</div>
+					<div class="s1" id="k9">chapter 9</div>
+						<div style="clear: both"></div>
+					<div class="s1" id="k10">chapter 10</div>
+					<div class="s1" id="k11">chapter 11</div>
+					<div class="s1" id="k12">chapter 12</div>
+						<div style="clear: both"></div>
+				</div>
+		</div>
+		
+		<div class="square">
+			<div class="s2" style="background-color: #ffffff; border: 2px solid #766b89; color: #757285;">
+				B2 level
+			</div>
+				<div id="prawa">
+					<a href="ang/B2/chapter1.html"><div class="s1" id="q1">chapter 1</div></a>
+					<a href="ang/B2/chapter2.html"><div class="s1" id="q2">chapter 2</div></a>
+					<a href="ang/B2/chapter3.html"><div class="s1" id="q3">chapter 3</div></a>
+						<div style="clear: both"></div>
+					<a href="ang/B2/chapter4.html"><div class="s1" id="q4">chapter 4</div></a>
+					<a href="ang/B2/chapter5.html"><div class="s1" id="q5">chapter 5</div></a>
+					<a href="ang/B2/chapter6.html"><div class="s1" id="q6">chapter 6</div></a>
+						<div style="clear: both"></div>
+					<a href="ang/B2/chapter7.html"><div class="s1" id="q7">chapter 7</div></a>
+					<a href="ang/B2/chapter8.html"><div class="s1" id="q8">chapter 8</div></a>
+					<a href="ang/B2/chapter9.html"><div class="s1" id="q9">chapter 9</div></a>
+						<div style="clear: both"></div>
+					<a href="ang/B2/chapter10.html"><div class="s1" id="q10">chapter 10</div></a>
+					<a href="ang/B2/chapter11.html"><div class="s1" id="q11">chapter 11</div></a>
+					<a href="ang/B2/chapter12.html"><div class="s1" id="q12">chapter 12</div></a>
+						<div style="clear: both"></div>
+				</div>
+		</div>
+			<div style="clear: both"></div>
+		
+		<div class="footer">
+			291564.umk@gmail.com 2018 &copy; <a href="https://www.google.pl/" class="domowa" target="_blank"><i class="icon-mail-alt"></i></a> UMK Toruń
+		</div>
+		
+	</div>
+	
+	<script>
+	
+		window.onload = odliczanie;
+	
+		function odliczanie()
+		{
+			var dzisiaj = new Date();
+		
+			var godzina = dzisiaj.getHours();
+			if(godzina<10) godzina = "0"+godzina;
+		
+			var minuta = dzisiaj.getMinutes();
+			if(minuta<10) minuta = "0"+minuta;
+		
+			var sekunda = dzisiaj.getSeconds();
+			if(sekunda<10) sekunda = "0"+sekunda;
+		
+			document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
+			
+			setTimeout("odliczanie()", 1000);
+		}
+		
+		var wzor_l = Math.floor(Math.random()*4)+1;
+		var wzor_r = Math.floor(Math.random()*4)+5;
+		var element_l;
+		var element_r;
+		var x;
+		var y;
+		
+		for(i=1; i<=12; i++)
+		{
+			element_l = "k"+i;
+			x = document.getElementById(element_l);
+			wzor_l = Math.floor(Math.random()*4)+5;
+			x.id = 'war'+wzor_l;
+		}
+		
+		for(j=1; j<=12; j++)
+		{
+			element_r = "q"+j;
+			y = document.getElementById(element_r);
+			wzor_r = Math.floor(Math.random()*4)+1;
+			y.id = 'war'+wzor_r;
+		}
+		
+	</script>
+
+</body>
+</html>
+

@@ -1,0 +1,304 @@
+body
+{
+	/* backgroud from subtle patterns.com */
+	background-image: url("img/leafs_green.png");
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+}
+
+.footer
+{
+	width: 800px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	background-color: #ffffff;
+	height: 50px;
+	line-height: 50px;
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+}
+
+#logo
+{
+	float: left;
+	font-family: 'Dancing Script', cursive;
+	font-size: 55px;
+	width: 480px;
+	text-align: center;
+}
+
+#time
+{
+	float: left;
+	font-size: 50px;
+	width: 480px;
+	text-align: center;
+}
+
+
+
+
+#war1
+{
+	background-color: #c9d887;
+	border: 2px solid #b8c776;
+	color: black;
+}
+
+#war1:hover
+{
+	background-color: #b8c776;
+	border: 2px solid #a7b665;
+	color: #ffffff;
+}
+	
+#war2
+{
+	background-color: #ffffff;
+	border: 2px solid #c9d887;
+	color: #333333;
+}
+
+#war2:hover
+{
+	background-color: #eeeeee;
+	border: 2px solid #a7b665;
+	color: black;
+}
+
+#war3
+{
+	background-color: #7f7f7f;
+	border: 2px solid #6e6e6e;
+	color: #eeeeee;
+}
+
+#war3:hover
+{
+	background-color: #6e6e6e;
+	border: 2px solid #5d5d5d;
+	color: #ffffff;
+}
+
+#war4
+{
+	background-color: #ffffff;
+	border: 2px solid #eeeeee;
+	color: #b8c776;
+}
+
+#war4:hover
+{
+	background-color: #eeeeee;
+	border: 2px solid #5d5d5d;
+	color: #222222;
+}
+
+#war_umk
+{
+	background-color: #a9d13c;
+	border: 2px solid #98c02b;
+	color: #eeeeee;
+}
+
+#war_umk:hover
+{
+	background-color: #b8c776;
+	border: 2px solid #a7b665;
+	color: #ffffff;
+}
+
+#war_mail
+{
+	background-color: #6666aa;
+	border: 2px solid #555599;
+	color: #eeeeee;
+}
+
+#war_mail:hover
+{
+	background-color: #555599;
+	border: 2px solid #444488;
+	color: #ffffff;
+}
+
+#war_fb
+{
+	background-color: #4267b2;
+	border: 2px solid #3156a1;
+	color: #eeeeee;
+}
+
+#war_fb:hover
+{
+	background-color: #3156a1;
+	border: 2px solid #204590;
+	color: #ffffff;
+}
+
+#war_usos
+{
+	background-color: #343743;
+	border: 2px solid #232632;
+	color: #eeeeee;
+}
+
+#war_usos:hover
+{
+	background-color: #232632;
+	border: 2px solid #121521;
+	color: #ffffff;
+}
+
+#war_empik
+{
+	background-image: url("img/brickwall.png");
+	border: 2px solid #b8c776;
+	color: #96a554;
+}
+
+#war_empik:hover
+{
+	background-image: url("img/brickwall.png");
+	border: 2px solid #859443;
+	color: #748332;
+	opacity: 0.9;
+}
+
+#war_2015
+{
+	background-image: url("img/sakura.png");
+	border: 2px solid #dcd0c9;
+	color: #a9a096;
+}
+
+#war_2015:hover
+{
+	background-image: url("img/sakura.png");
+	border: 2px solid #cbc0b8;
+	color: #767063;
+	opacity: 0.9;
+}
+
+.s1
+{
+	float: left;
+	width: 226px;
+	margin: 10px;
+	height: 101px;
+	cursor: pointer;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.s2
+{
+	width: 443px;
+	margin: 10px;
+	height: 101px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 45px;
+	text-align: center;
+	padding-right: 33px;
+}
+
+.s3
+{
+	float: left;
+	width: 105px;
+	margin: 8px;
+	height: 106px;
+	cursor: pointer;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.s4
+{
+	width: 456px;
+	margin: 10px;
+	height: 466px;
+	border-radius: 3px;
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#slider
+{
+	background-color: #ffffff;
+	border: 2px solid #eeeeee;
+	color: black;
+	font-size: 17px;
+}
+
+#tekst
+{
+	width: 456px;
+	margin: 10px;
+	height: 341px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	border: 2px solid #eeeeee;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.s4 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+a.domowa
+{
+	color: black;
+	text-decoration: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+p
+{
+	margin: 0px;
+	text-indent: 15px;
+	letter-spacing: 0.2px;
+}

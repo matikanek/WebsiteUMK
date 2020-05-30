@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<title>Mateusz Kaniecki - 291564</title>
+	
+	<meta name="description" content="Przydatna strona do nauki w trakcie studiowania. Stworzona w celach naukowych. Właściciel strony - student uniwersytetu Mikołaja Kopernika w Toruniu." /> 
+	<meta name="keywords" content="nauka, studia, informatyka stosowana, programowanie, html, css, javascript, php, webmaster" />
+	
+	<link rel="stylesheet" href="style_angielski.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello_nauka.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu" rel="stylesheet"> 
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a class="domowa" href="index.html">Angielski</a></div>
+			<div id="time">12:00:00</div>
+			<div style="clear: both"></div>
+		</div>
+		
+		<div class="square">
+			<div class="s4" id="slider">
+				<p style="letter-spacing: 0.2px;">
+				Jak sam tytuł działu wskazuje, ta zakładka będzie poświęcona językowi angielskiemu a dokładniej to jego nauce. Kilka słów o tym, o co tu chodzi?</p> 
+				<p>
+				Przede wszystkim nauczyć (choć może to za dużo powiedziane), uczyć będzie można się słówek. W jaki sposób? Poprzez grę. Gra opiera się na zasadach gry w wisielca: do zgadnięcia mamy hasło, której jest słówkiem angielskim z podpowiedzią polskiego tłumaczenia lub na odwrót.</p>
+				
+				<br />
+				<p style="text-indent: 0px;">
+				<b>O grze:</b>
+				</p>
+				<i>
+				<p style="margin-top: 2px;">
+				Na ekranie znajdziemy obszar z odpowiednim słówkiem, które mamy napisać w drugim języku (z angielskiego na polski, z polskiego na angielski).
+				Na samej górze znajduje się miejsce na literki, które będziemy zgadywać. 
+				Na ekranie zobaczymy także planszę z literami, które po kliknięciu zakolorują się na odpowiedni kolor. 
+				</p>
+				<br />
+				<p>
+					<font color="#006600"><b>Zielony</b></font> – jeżeli dana literka znajduje się w haśle. </p>
+				<p>
+					<font color="#660000"><b>Czerwony</b></font> – jeżeli dana literka nie znajduje się w haśle. 
+				</p> 
+				<br />
+				
+				Celem gry jest oczywiście zgadnięcie podanego słówka w drugim języku przy jak najmniejszej ilości uchybień.
+				
+				</i>
+			</div>
+		</div>
+		
+		<div class="square">
+			<div id="tekst">
+				<i>
+				Jedna gra opiera się na odgadnięciu kilku haseł, za które można otrzymać lub stracić odpowiednią ilość punktów (przy wyborze złej literki tracimy punkty natomiast przy odgadnięciu całego hasła otrzymujemy ich określoną ilość). </i>
+				<br /><br />
+				<p>
+				U dołu prawej szpalty można zobaczyć dwie zakładki. Są to dwa zestawy słówek pochodzących z różnych źródeł. Zakładka „empik – kurs” zawiera słówka z kursu angielskiego w empik school. (Ksiażka "face2face" Nicholas Tims, Chris Redston, Gillie Cunningham). Zakładka „książka matura 2015” zawiera słówka mojego osobistego podręcznika do angielskiego z jakiego miałem okazję się uczyć pod koniec szkoły średniej: („matura 2015, repetytorium, poziom podstawowy i rozszerzony” Marta Rosińska i Lynda Edwards). Jest to potężna dawka słówek z różnych kategorii na poziomie B1 i B2. Serdecznie polecam zajżeć do tej zakładki.</p>
+				
+			</div>
+			<a href="empik.html">
+			<div class="s1" id="war_empik" style="padding-top: 35px; height: 66px;">
+				<b>empik – kurs</b>
+			</div></a>
+			<a href="ksiazka_matura_2015.html">
+			<div class="s1" id="war_2015" style="padding-top: 21px; height: 80px;">
+				<b>książka matura 2015</b>
+			</div></a>
+		</div>
+			<div style="clear: both"></div>
+		
+		<div class="footer">
+			291564.umk@gmail.com 2018 &copy; <a href="https://www.google.pl/" class="domowa" target="_blank"><i class="icon-mail-alt"></i></a> UMK Toruń
+		</div>
+		
+	</div>
+	
+	<script>
+	
+		window.onload = odliczanie;
+	
+		function odliczanie()
+	{
+		var dzisiaj = new Date();
+	
+		var godzina = dzisiaj.getHours();
+		if(godzina<10) godzina = "0"+godzina;
+	
+		var minuta = dzisiaj.getMinutes();
+		if(minuta<10) minuta = "0"+minuta;
+	
+		var sekunda = dzisiaj.getSeconds();
+		if(sekunda<10) sekunda = "0"+sekunda;
+	
+		document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
+		
+		setTimeout("odliczanie()", 1000);
+	}
+		
+	</script>
+
+</body>
+</html>
+

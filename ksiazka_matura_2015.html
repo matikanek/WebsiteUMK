@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<title>Mateusz Kaniecki - 291564</title>
+	
+	<meta name="description" content="Przydatna strona do nauki w trakcie studiowania. Stworzona w celach naukowych. Właściciel strony - student uniwersytetu Mikołaja Kopernika w Toruniu." /> 
+	<meta name="keywords" content="nauka, studia, informatyka stosowana, programowanie, html, css, javascript, php, webmaster" />
+	
+	<link rel="stylesheet" href="style_ksiazka_matura_2015.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello_2015.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu" rel="stylesheet"> 
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a class="domowa" href="angielski.html">Repetytorium</a></div>
+			<div id="time">12:00:00</div>
+			<div style="clear: both"></div>
+		</div>
+		
+		<div class="square">
+			<div id="lewa">
+				<a href="czlowiek.html"><div class="s1" id="k1"><i class="icon-child"></i><br/>Człowiek</div></a>
+				<a href ="dom.html"><div class="s1" id="k2"><i class="icon-home"></i><br/>Dom</div></a>
+					<div style="clear: both"></div>
+				<a href="szkola.html"><div class="s1" id="k3"><i class="icon-pencil"></i><br/>Szkoła</div></a>
+				<a href="praca.html"><div class="s1" id="k4"> <i class="icon-briefcase-1"></i><br/>Praca</div></a>
+					<div style="clear: both"></div>
+				<a href="zycie_rodzinne_i_towarzyskie.html"><div class="s2" id="k5"><i class="icon-users"></i><br/>Życie rodzinne i towarzyskie</div></a>
+					<div style="clear: both"></div>
+				<a href="zywienie.html"><div class="s1" id="k6"><i class="icon-food"></i><br/>Żywienie</div></a>
+				<a href="zakupy_i_uslugi.html"><div class="s1" id="k7"><i class="icon-shopping-bag"></i><br/>Zakupy i Usługi</div></a>
+			</div>
+		</div>
+		
+		<div class="square">
+			<div id="prawa">
+				<a href="sport.html"><div class="s1" id="k8"><i class="icon-bicycle"></i><br/>Sport</div></a>
+				<a href="kultura.html"><div class="s1" id="k9"><i class="icon-book"></i><br/>Kultura</div></a>
+					<div style="clear: both"></div>
+				<a href="podrozowanie_i_turystyka.html"><div class="s2" id="k10"><i class="icon-flight"></i><br/>Podróżowanie i turystyka</div></a>
+					<div style="clear: both"></div>
+				<a href="zdrowie.html"><div class="s1" id="k11"><i class="icon-heartbeat"></i><br/>Zdrowie</div></a>
+				<a href="nauka_i_technika.html"><div class="s1" id="k12"><i class="icon-cog-alt"></i><br/>Nauka i technika</div></a>
+					<div style="clear: both"></div>
+				<a href="swiat_przyrody.html"><div class="s1" id="k13"><i class="icon-envira"></i><br/>Świat przyrody</div></a>
+				<a href="panstwo_i_spoleczenstwo.html"><div class="s1" id="k14"><i class="icon-flag-empty"></i><br/>Państwo i społeczeństwo</div></a>
+			</div>
+		</div>
+			<div style="clear: both"></div>
+		
+		<div class="footer">
+			291564.umk@gmail.com 2018 &copy; <a href="https://www.google.pl/" class="domowa" target="_blank"><i class="icon-mail-alt"></i></a> UMK Toruń
+		</div>
+		
+	</div>
+	
+	<script>
+	
+		window.onload = odliczanie;
+	
+		function odliczanie()
+	{
+		var dzisiaj = new Date();
+	
+		var godzina = dzisiaj.getHours();
+		if(godzina<10) godzina = "0"+godzina;
+	
+		var minuta = dzisiaj.getMinutes();
+		if(minuta<10) minuta = "0"+minuta;
+	
+		var sekunda = dzisiaj.getSeconds();
+		if(sekunda<10) sekunda = "0"+sekunda;
+	
+		document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
+		
+		setTimeout("odliczanie()", 1000);
+	}
+	
+	var wzor = Math.floor(Math.random()*4)+1;
+	var element;
+	var x;
+	
+	for(i=1; i<=14; i++)
+		{
+			element = "k"+i;
+			x = document.getElementById(element);
+			wzor = Math.floor(Math.random()*4)+1;
+			x.id = 'war'+wzor;
+		}
+	
+	</script>
+
+</body>
+</html>
+

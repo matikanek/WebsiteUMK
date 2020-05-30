@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<title>Mateusz Kaniecki - 291564</title>
+	
+	<meta name="description" content="Przydatna strona do nauki w trakcie studiowania. Stworzona w celach naukowych. Właściciel strony - student uniwersytetu Mikołaja Kopernika w Toruniu." /> 
+	<meta name="keywords" content="nauka, studia, informatyka stosowana, programowanie, html, css, javascript, php, webmaster" />
+	
+	<link rel="stylesheet" href="style_omnie.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello_omnie.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu" rel="stylesheet"> 
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a class="domowa" href="index.html">O mnie</a></div>
+			<div id="time">12:00:00</div>
+			<div style="clear: both"></div>
+		</div>
+		
+		<div class="square">
+			<div class="s4" id="slider">
+			<p>
+			Nazywam się Mateusz Kaniecki i aktualnie jestem studentem na wydziale fizyki w Toruniu. 
+			Zazwyczaj mając do czynienia z działem „o mnie” zastanawiam się nad tym czy mógłbym napisać coś więcej niż tylko parę zdań. Kilka słów:
+			Co do zainteresowań, o których zwykło się popularnie pisać:
+			</p>
+			<p>
+			Przede wszystkim dużym zainteresowaniem cieszy się u mnie Biblia. Oczywiście wiele można mieć na myśli mówiąc "interesuje mnie Biblia". Moje myśli w jej kontekście skupiają się jednak nad planem zbawienia człowieka jaki ona przedstawia (w dużej mierze, w jej części - „Nowym Testamencie”). Zresztą nie ma tu czego nowego za bardzo przedstawiać, gdyż myślę, że większość ludzi na dzień dzisiejszy zna chociaż ze słyszenia tą księgę. Myślę też o jej esencji – Jezusie Chrystusie. Chrystusie – no właśnie, mamy do czynienia z tematem „Bóg”, który jest bardzo wrażliwy i często wiele „ale” pojawia się przy poruszeniu tego tematu. W każdym razie mnie bardzo on interesuje i kiedy mam czas to staram się otaczać literaturą, muzyką czy to kazaniem z nim właśnie związanym. Jest to moja pasja, jest to jednocześnie hobby, jest to coś cennego i osobistego dla mnie. Sama Biblia jest dosyć obszerną księgą. Myślę jednak, że oprócz tych kartek nadających jej pewną objętość fizyczną ma jeszcze głębię o wymiarach idących daleko poza</p>
+			</div>
+		</div>
+		
+		<div class="square">
+			<div id="tekst">
+			fizyczne parametry.
+			<p>
+			Jeden z jej autorów miał okazję podzielić się podobną myślą mówiąc: „jest jeszcze wiele innych rzeczy (…), które gdyby miały zostać spisane jedne po drugich, to sądzę, że i cały świat nie zmieściłby zwojów spisanych o tym.”. Oczywiście mówił to w kontekście rzeczy, które czynił za życia Jezus. Nasuwa się zatem wiele pytań: Jaki temat jest warty tak wielkich rozważań?
+			Co w takim razie jest tam takiego czego nie dałoby się ująć w kilku zgrabnych zdaniach? No, zatrzymam się tutaj. Takie jest moje zainteresowanie i poświęcam mu dużą część moich myśli.
+			Nie mam wiele miejsca by móc dłużej rozpisać się w tym temacie. Ponadto nie jestem też asem pięknych rozprawek z języka polskiego by móc świecić jakąś piękną polszczyzną i umiejętnością wysławiania się. Zdecydowanie bardziej wolę ścisłe przedmioty. W tej zakładce podzielę się jedynie cenną książką Wilhelma Busha - „365 razy On”. Są to rozważania fragmentów z pokrótce poruszanej tu księgi. </p>
+			</div>
+			
+			<a href="rozwazania.html">
+			<div class="s2" id="war_empik">
+				<i class="icon-book"></i><i>365 razy On</i>
+			</div></a>
+		</div>
+			<div style="clear: both"></div>
+		
+		<div class="footer">
+			291564.umk@gmail.com 2018 &copy; <a href="https://www.google.pl/" class="domowa" target="_blank"><i class="icon-mail-alt"></i></a> UMK Toruń
+		</div>
+		
+	</div>
+	
+	<script>
+	
+		window.onload = odliczanie;
+	
+		function odliczanie()
+	{
+		var dzisiaj = new Date();
+	
+		var godzina = dzisiaj.getHours();
+		if(godzina<10) godzina = "0"+godzina;
+	
+		var minuta = dzisiaj.getMinutes();
+		if(minuta<10) minuta = "0"+minuta;
+	
+		var sekunda = dzisiaj.getSeconds();
+		if(sekunda<10) sekunda = "0"+sekunda;
+	
+		document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
+		
+		setTimeout("odliczanie()", 1000);
+	}
+		
+	</script>
+
+</body>
+</html>
+

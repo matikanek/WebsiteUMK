@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+	<title>Mateusz Kaniecki - 291564</title>
+	
+	<meta name="description" content="Przydatna strona do nauki w trakcie studiowania. Stworzona w celach naukowych. Właściciel strony - student uniwersytetu Mikołaja Kopernika w Toruniu." /> 
+	<meta name="keywords" content="nauka, studia, informatyka stosowana, programowanie, html, css, javascript, php, webmaster" />
+	
+	<link rel="stylesheet" href="style_nauka.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello_nauka.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu" rel="stylesheet"> 
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a class="domowa" href="index.html">Nauka</a></div>
+			<div id="time">12:00:00</div>
+			<div style="clear: both"></div>
+		</div>
+		
+		<div class="square">
+			<div class="s4" id="slider">
+			<p>
+			Moja przygoda z informatyką zaczęła się już w dzieciństwie. Miałem okazję zetknąć się  z podstawami HTML-a jak i jednym programem do tworzenia animacji (pivot). Oczywiście wszystko to było na bardzo prymitywnym poziomie i w latach dzieciństwa nie myślałem w kategoriach wiązania z tym jakiejś przyszłości, o ile można w ogóle powiedzieć, że myślałem wtedy w taki sposób. Prawdę mówiąc byłem dość zniechęcony informatyką do końcówki szkoły średniej. Zawsze wydawała mi się ona logiczna jednak brakowało mi kogoś, kto dosyć dobrze, w przystępny sposób będzie w stanie wytłumaczyć podstawy zostawiając zarazem pewne nienasycenie zdobytą wiedzą. Dlatego trudno było mi przełamać brak chęci do podjęcia trudu nauki w kierunku IT. W październiku 2017 roku rozpocząłem studia na UMK w Toruniu rozpoczynając kierunek Informatyki Stosowanej na wydziale fizyki. Dysponowałem wtedy jedynie wielkim zapałem do pracy i dobrym wynikiem matury rozszerzonej z matematyki osiągniętym dzięki cudownej pani Profesor Masłowskiej po maturze w liceum. :)
+			Na początku studiów szybko dowiedziałem się o niesamowitym dydaktyku Mirosławie Zelencie, dzięki którego filmom szkoleniowym na YouTube, mogłem</p>
+			</div>
+		</div>
+		
+		<div class="square">
+			<div id="tekst">
+			zdobyć wiele cennych umiejętności.
+			<p>
+			Jego umiejętność wykładania tematu okazała się być w trafem w dziesiątkę przez co w kapitalny sposób zaraził mnie pasją do informatyki. 
+			Wiele rzeczy jeszcze dzisiaj nie potrafię i na wiele patrzę jeszczę z wielkimi oczami, jednak mam nadzieję pracować i zgłębiać dalej temat związany z moim kierunkiem studiów.</p>
+			<p style="margin-top: 10px;">
+			Wyjaśnienie ikonek:
+			począwszy od lewej:
+			strona wydziału fizyki w Toruniu,
+			poczta studentów,
+			mój facebook,
+			link do systemu USOS.</p>
+			</div>
+			<a href="https://www.fizyka.umk.pl/" target="_blank">
+			<div class="s3" id="war_umk">
+				<i class="icon-bank"></i>
+			</div></a>
+			<a href="https://imp.umk.pl/horde/imp/login.php" target="_blank">
+			<div class="s3" id="war_mail">
+				<i class="icon-mail-2"></i> 
+			</div></a>
+			<a href="https://www.facebook.com/matikanek" target="_blank">
+			<div class="s3" id="war_fb">
+				<i class="icon-facebook"></i>
+			</div></a>
+			<a href="https://usosweb.umk.pl/kontroler.php?_action=actionx:news/default()" target="_blank">
+			<div class="s3" id="war_usos">
+				<i class="icon-graduation-cap"></i>
+			</div></a>
+			<div style="clear: both;"></div>
+			<a href="Karta_przebiegu_studiów-291564-2018-08-27_10_09.pdf">
+			<div class="s2" id="war4">
+				<i class="icon-ok"></i><i>1 rok_IS.pdf</i>
+			</div></a>
+		</div>
+			<div style="clear: both"></div>
+		
+		<div class="footer">
+			291564.umk@gmail.com 2018 &copy; <a href="https://www.google.pl/" class="domowa" target="_blank"><i class="icon-mail-alt"></i></a> UMK Toruń
+		</div>
+		
+	</div>
+	
+	<script>
+	
+		window.onload = odliczanie;
+	
+		function odliczanie()
+	{
+		var dzisiaj = new Date();
+	
+		var godzina = dzisiaj.getHours();
+		if(godzina<10) godzina = "0"+godzina;
+	
+		var minuta = dzisiaj.getMinutes();
+		if(minuta<10) minuta = "0"+minuta;
+	
+		var sekunda = dzisiaj.getSeconds();
+		if(sekunda<10) sekunda = "0"+sekunda;
+	
+		document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
+		
+		setTimeout("odliczanie()", 1000);
+	}
+		
+	</script>
+
+</body>
+</html>
+
