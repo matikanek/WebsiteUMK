@@ -1,0 +1,257 @@
+body
+{
+	/* backgroud from subtle patterns.com */
+	background-image: url("img/black.png");
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+#pojemnik
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#password
+{
+	width: 976px;
+	height: 145px;
+	margin: 10px;
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: center;
+	line-height: 149px;
+	font-size: 60px;
+	border-radius: 3px;
+	background-color: #988dab;
+	border: 2px solid #877c9a;
+	color: #222222;
+	box-shadow: 0px -1px 50px rgba(200, 200, 200, 0.3);
+}
+
+#square
+{
+	width: 50%;
+	float: left;
+}
+
+#tip
+{
+	width: 446px;
+	height: 120px;
+	margin: 10px;
+	text-align: justify;
+	font-size: 25px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	border: 2px solid #877c9a;
+	color: #966900;
+	font-size: 25px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#progres
+{
+	width: 460px;
+	height: 129px;
+	background-color: #ffffff;
+	margin: 10px;
+	margin-top: 20px;
+	padding: 10px;
+	box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.7);
+	border-radius: 3px;
+}
+
+#alfabet
+{
+	width: 465px;
+	height: 318px;
+	margin: 10px;
+	border-radius: 3px;
+	padding-left: 15px;
+}
+
+#postep_gry
+{
+	width: 980px;
+	height: 149px;
+	margin: 10px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+#et1
+{
+	height: 50.5px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	line-height: 50.5px;
+	font-size: 30px;
+	border-radius: 3px;
+	background-color: #dbd8eb;
+	border: 2px solid #cac7da;
+	color: #9794a7;
+}
+
+#et2
+{
+	height: 50.5px;
+	padding: 5px;
+	margin: 5px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 50.5px;
+	font-size: 30px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	border: 2px solid #cac7da;
+	color: #868396;
+	box-shadow: 0px 0px 50px rgba(200, 200, 200, 0.3);
+}
+
+#point
+{
+	float: left;
+	width: 231px;
+	height: 135px;
+	margin: 5px;
+	border-radius: 3px;
+	line-height: 135px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #988dab;
+	border: 2px solid #877c9a;
+	color: #222222;
+}
+
+#pkt
+{
+	float: left;
+	width: 231px;
+	height: 135px;
+	margin: 5px;
+	border-radius: 3px;
+	line-height: 135px;
+	text-align: center;
+	font-size: 75px;
+	background-color: #ffffff;
+	border: 2px solid #988dab;
+	color: #868396;
+	box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.3);
+}
+
+#skill_percentage
+{
+	background-color: #ece9fc;
+	padding: 4px;
+	bax-sizing: border-box;
+	border: 1px solid #cac7da;
+	border-radius: 3px;
+}
+
+#skill_level
+{
+	background-color: #877c9a;
+	width: 100%;
+	height: 85px;
+	border-radius: 3px;
+}
+
+#progres p
+{
+	color: #000000;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 0;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#progres p:nth-child(2)
+{
+	float: right;
+	position: relative;
+	top: -30px;
+}
+
+.litera
+{
+	width: 41px;
+	height: 41px;
+	text-align: center;
+	padding: 5px;
+	margin: 3.5px;
+	border: 3px solid #655a78;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 34px;
+	color: #ece9fc;
+	background-color: #000412;
+}
+
+.litera:hover
+{
+	background-color: #dbd8eb;
+	color: #222222;
+	border: 3px solid #eeeeee;
+}
+
+#podsumowanie
+{
+	height: 318px;
+	text-align: center;
+	color: #222222;
+	font-size: 50px;
+	line-height: 318px;
+}
+
+#dalej
+{
+	height: 218px;
+	text-align: center;
+	color: #eeeeee;
+	font-size: 30px;
+	padding-top: 100px;
+	border-radius: 300px;
+}
+
+.reset
+{
+	border-radius: 15px;
+	padding: 7px;
+	border: 4px solid #877c9a;
+	background-color: #877c9a;
+	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
+}
+
+.reset:hover
+{
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);
+}
+
+#hiddden
+{
+	float: left;
+}
+
+#koniec
+{
+	width: 896px;
+	height: 422px;
+	padding: 50px;
+	background-color: #dddddd;
+	border: 5px solid #877c9a;
+	color: #222222;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 190px;
+	border-radius: 10px;
+}
