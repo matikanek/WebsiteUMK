@@ -1,0 +1,25 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-info-outline:before { content: '\e801'; } /* '' */
+.icon-ok:before { content: '\e802'; } /* '' */
+.icon-home:before { content: '\e803'; } /* '' */
+.icon-pencil:before { content: '\e804'; } /* '' */
+.icon-book:before { content: '\e805'; } /* '' */
+.icon-users:before { content: '\e806'; } /* '' */
+.icon-flight:before { content: '\e807'; } /* '' */
+.icon-briefcase-1:before { content: '\e808'; } /* '' */
+.icon-cog-alt:before { content: '\e809'; } /* '' */
+.icon-mail-2:before { content: '\e80e'; } /* '' */
+.icon-emo-laugh:before { content: '\e812'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-food:before { content: '\f0f5'; } /* '' */
+.icon-flag-empty:before { content: '\f11d'; } /* '' */
+.icon-bank:before { content: '\f19c'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
+.icon-child:before { content: '\f1ae'; } /* '' */
+.icon-chart-line:before { content: '\f201'; } /* '' */
+.icon-bicycle:before { content: '\f206'; } /* '' */
+.icon-heartbeat:before { content: '\f21e'; } /* '' */
+.icon-shopping-bag:before { content: '\f290'; } /* '' */
+.icon-envira:before { content: '\f299'; } /* '' */
